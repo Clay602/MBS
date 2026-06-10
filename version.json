@@ -1,0 +1,11 @@
+{
+    "version": "3.7",
+    "release_date": "2026-06-10",
+    "url": "https://github.com/Clay602/MBS/raw/main/dist/Acer_ABC_Modbus_Tool.exe",
+    "sha256": "601c2e84ca5c46d8d69d8d4826b815828ea9b252b693e2183c23dff2721d559c",
+    "changelog": [
+        "1. 實作自動更新系統 (Auto-Update)，支援版本比對與下載進度顯示",
+        "2. 實作 SHA-256 完整性校驗與安全 HTTPS 連線，防範檔案竄改",
+        "3. 實作外部批次檔 (updater.bat) 覆蓋並提示使用者手動執行更新"
+    ]
+}
