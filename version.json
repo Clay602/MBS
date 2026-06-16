@@ -1,11 +1,11 @@
 {
-    "version": "3.7",
-    "release_date": "2026-06-10",
+    "version": "3.8",
+    "release_date": "2026-06-16",
     "url": "https://github.com/Clay602/MBS/raw/main/dist/Acer_ABC_Modbus_Tool.exe",
-    "sha256": "779f7fc97eb57b9bb096917540be3809228d56f763c2ecf09c7170b315b68d10",
+    "sha256": "b800b4ced7bae33655a2ecd11c13f384c2f02774e197c9825219072ee5cec3da",
     "changelog": [
-        "1. 實作自動更新系統 (Auto-Update)，支援版本比對與下載進度顯示",
-        "2. 實作 SHA-256 完整性校驗與安全 HTTPS 連線，防範檔案竄改",
-        "3. 實作外部批次與 VBScript 背景自動套用更新，完全隱藏 CMD 視窗"
+        "1. 升級自動更新為方案 B，利用 Windows 重命名佔用技術，純 Python 內建機制搞定更新與重啟，100% 擺脫 VBScript 與任何外部腳本",
+        "2. 更新成功後自動重新啟動主程式，並透過新版 Tkinter 原生對話框提示更新成功，完全無 CMD/PowerShell 視窗閃爍問題",
+        "3. 新版啟動後自動非同步清理舊版備份檔案 (.old)，保持目錄整潔"
     ]
 }
