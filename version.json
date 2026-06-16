@@ -1,11 +1,11 @@
 {
-    "version": "3.8",
+    "version": "4.0",
     "release_date": "2026-06-16",
     "url": "https://github.com/Clay602/MBS/raw/main/dist/Acer_ABC_Modbus_Tool.exe",
-    "sha256": "99c81d1cb8a96c9877b53331009b155dfa1e8c3b4f8cd712af559b1a67515c36",
+    "sha256": "14c596ef30a1eadc864ffd782291ed210697e750e3d4326b623246be8eab2324",
     "changelog": [
-        "1. 升級自動更新為方案 B，利用 Windows 重命名佔用技術，純 Python 內建機制搞定更新與重啟，100% 擺脫 VBScript 與任何外部腳本",
-        "2. 更新成功後自動重新啟動主程式，並透過新版 Tkinter 原生對話框提示更新成功，完全無 CMD/PowerShell 視窗閃爍問題",
-        "3. 新版啟動後自動非同步清理舊版備份檔案 (.old)，保持目錄整潔"
+        "1. 開發獨立管理端授權產生工具 (license_generator.py)，採用現代 Tkinter GUI 與無第三方庫依賴 RSA 演算",
+        "2. 主程式整合 RSA 離線校驗解密模組與 MachineGuid + BIOS UUID 本機機器碼偵測機制",
+        "3. 於說明選單新增「授權資訊」對話框，提供機器碼一鍵複製與即時授權狀態查詢"
     ]
 }
