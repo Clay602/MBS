@@ -2,7 +2,7 @@
     "version": "4.2",
     "release_date": "2026-06-16",
     "url": "https://github.com/Clay602/MBS/raw/main/dist/Acer_ABC_Modbus_Tool.exe",
-    "sha256": "91d5060eaa8cf8685fa1d91e40b64401a3e21bda4ab97b092e2fb66d0e55ce72",
+    "sha256": "4e695c6a13b311504772edd24fb2297591ecdaa8f5ddf1c4dacbb8c99a5afe30",
     "changelog": [
         "1. 開發獨立管理端授權產生工具 (license_generator.py)，採用現代 Tkinter GUI 與無第三方庫依賴 RSA 演算",
         "2. 主程式整合 RSA 離線校驗解密模組與 MachineGuid + BIOS UUID 本機機器碼偵測機制",
