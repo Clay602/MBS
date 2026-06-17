@@ -2,7 +2,7 @@
     "version": "4.4",
     "release_date": "2026-06-17",
     "url": "https://github.com/Clay602/MBS/raw/main/dist/ABC_Modbus_Tool.exe",
-    "sha256": "950b01961c24c40f3b5be161bcafeebe0f5474be844d911f73fba7ffc0d11c6f",
+    "sha256": "14d5e7da86f55004b72b34df2f7029c973091a190ea26679a570eadfca37f973",
     "changelog": [
         "1. 專案名稱正式更名為 ABC Modbus Tool，同步更新所有相關變數與說明文字",
         "2. 徹底清查並修正混淆模式下自訂方法使用關鍵字引數導致的 TypeError 崩潰 Bug",
