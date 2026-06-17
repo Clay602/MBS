@@ -1,14 +1,12 @@
 {
-    "version": "4.2",
-    "release_date": "2026-06-16",
+    "version": "4.3",
+    "release_date": "2026-06-17",
     "url": "https://github.com/Clay602/MBS/raw/main/dist/Acer_ABC_Modbus_Tool.exe",
-    "sha256": "491df9649833c56c8f86fe23269d108fcc3cc698a1285decccaee561f82d1905",
+    "sha256": "4a9abed81e593bfe3ea58a0f690c8e92d99aadf55a1cc496bc85c4a48ee24772",
     "changelog": [
-        "1. 開發獨立管理端授權產生工具 (license_generator.py)，採用現代 Tkinter GUI 與無第三方庫依賴 RSA 演算",
-        "2. 主程式整合 RSA 離線校驗解密模組與 MachineGuid + BIOS UUID 本機機器碼偵測機制",
-        "3. 於說明選單新增「授權資訊」對話框，提供機器碼一鍵複製與即時授權狀態查詢",
-        "4. 更新主程式之操作手冊與版本資訊文字，詳細增列 RSA 離線授權與啟用流程",
-        "5. 主程式整合未授權啟動攔截機制，啟動時強制阻斷並彈出軟體授權啟用與回填對話框",
-        "6. 於核心讀取 (perform_read) 與寫入 (perform_write) 入口加入獨立 RSA 授權檢測，杜絕單點 Bypass 安全防禦漏洞，實現縱深安全防護"
+        "1. 導入 python-obfuscator 代碼混淆保護，對主程式代碼進行變數與結構混淆，大幅提高防反編譯安全強度",
+        "2. 建立一鍵打包自動化指令碼 build_obf.py，支援備份原始碼、安裝依賴、程式混淆與 PyInstaller 打包流程",
+        "3. 修正混淆後「檢查更新」因參數名稱混淆導致崩潰無法彈窗的 Bug",
+        "4. 更新操作指南與版本說明對話框，完整記載 v4.3 版本重大新功能資訊"
     ]
 }
