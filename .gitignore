@@ -1,0 +1,18 @@
+# 忽略所有檔案，除了發布所需的 version.json 與編譯後的新版 exe
+*
+
+# 排除例外：允許追蹤 version.json
+!version.json
+
+# 排除例外：允許追蹤 .gitignore 自己
+!.gitignore
+
+# 排除例外：允許追蹤 dist 目錄
+!dist/
+dist/*
+
+# 排除例外：僅允許追蹤新版的 exe
+!dist/ABC_Modbus_Tool.exe
+
+# 忽略內嵌的 Release/ 發布資料夾，避免外層倉庫追蹤其內容
+/Release/
