@@ -2,7 +2,7 @@
     "version": "4.3",
     "release_date": "2026-06-17",
     "url": "https://github.com/Clay602/MBS/raw/main/dist/Acer_ABC_Modbus_Tool.exe",
-    "sha256": "0f1d8a81ef525073d92b00056deaf6669bf11c0864d62d98df285140bc0a0463",
+    "sha256": "80fa99ea37887c22100f703476ee22826ad378a019256481559d4b51831c9836",
     "changelog": [
         "1. 導入 python-obfuscator 代碼混淆保護，對主程式代碼進行變數與結構混淆，大幅提高防反編譯安全強度",
         "2. 建立一鍵打包自動化指令碼 build_obf.py，支援備份原始碼、安裝依賴、程式混淆與 PyInstaller 打包流程",
