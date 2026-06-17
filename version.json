@@ -1,12 +1,12 @@
 {
-    "version": "4.3",
-    "release_date": "2026-06-17",
+    "version": "4.4",
+    "release_date": "2026-06-18",
     "url": "https://github.com/Clay602/MBS/raw/main/dist/ABC_Modbus_Tool.exe",
-    "sha256": "2A2ADAAB61DE0EDD52AB281960525E646B197D59809423EED0620D368C3A9697",
+    "sha256": "CB6C5BC81AF2339484B5433DB03C0ACD505A96166F8DB8FC83E56F0B2FDD8FE1",
     "changelog": [
-        "1. 導入 python-obfuscator 代碼混淆保護，對主程式代碼進行變數與結構混淆，大幅提高防反編譯安全強度",
-        "2. 建立一鍵打包自動化指令碼 build_obf.py，支援備份原始碼、安裝依賴、程式混淆與 PyInstaller 打包流程",
-        "3. 修正混淆後「檢查更新」因參數名稱混淆導致崩潰無法彈窗的 Bug",
-        "4. 更新操作指南與版本說明對話框，完整記載 v4.3 版本重大新功能資訊"
+        "1. UI 執行緒安全修復 (v4.4)：修正手動讀取遇到設備超時時，跨執行緒呼叫 Tkinter 元件導致 UI 未更新並引發內部異常污染日誌的 Bug",
+        "2. 專案名稱正式更名為 ABC Modbus Tool，同步更新所有相關變數與說明文字",
+        "3. 修正混淆模式下自訂方法使用關鍵字引數與逾時處理 NameError 導致執行緒崩潰的 Bug",
+        "4. 更新自動更新下載網址與重命名覆蓋邏輯以相容 ABC_Modbus_Tool.exe"
     ]
 }
