@@ -1,12 +1,12 @@
 {
-    "version": "4.4",
+    "version": "4.5",
     "release_date": "2026-06-18",
     "url": "https://github.com/Clay602/MBS/raw/main/dist/ABC_Modbus_Tool.exe",
-    "sha256": "CB6C5BC81AF2339484B5433DB03C0ACD505A96166F8DB8FC83E56F0B2FDD8FE1",
+    "sha256": "61562BB95D0E0CFCFE5EDD1EA72D71C926A7E9790AA8DEE83113E88BE8AE29D5",
     "changelog": [
-        "1. UI 執行緒安全修復 (v4.4)：修正手動讀取遇到設備超時時，跨執行緒呼叫 Tkinter 元件導致 UI 未更新並引發內部異常污染日誌的 Bug",
-        "2. 專案名稱正式更名為 ABC Modbus Tool，同步更新所有相關變數與說明文字",
-        "3. 修正混淆模式下自訂方法使用關鍵字引數與逾時處理 NameError 導致執行緒崩潰的 Bug",
-        "4. 更新自動更新下載網址與重命名覆蓋邏輯以相容 ABC_Modbus_Tool.exe"
+        "1. 空白表格預先渲染 (v4.5)：新增 RTU 分頁在首次成功讀取前，自動建立包含點位名稱與格式的佔位表格，支援雙擊編輯點位名稱",
+        "2. 智慧動態游標置中 (v4.5)：多螢幕滑鼠游標精準追蹤定位演算法，全域導入至所有設定視窗與對話框",
+        "3. UI 執行緒安全修復 (v4.4)：修正手動讀取遇到設備超時時，跨執行緒呼叫導致 UI 未更新及內部異常的 Bug",
+        "4. 專案名稱正式更名為 ABC Modbus Tool，同步更新所有相關變數與視窗標題"
     ]
 }
