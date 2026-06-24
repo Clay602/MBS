@@ -2,7 +2,7 @@
     "version": "4.5",
     "release_date": "2026-06-18",
     "url": "https://github.com/Clay602/MBS/raw/main/dist/ABC_Modbus_Tool.exe",
-    "sha256": "95DA6CB742F432ED8ACF88E27417013F117436F65274D525B785CC070CF87770",
+    "sha256": "3516031376BA4B976A544A13A55607CAD62A71878B0845C29A1BAF63ECEAE657",
     "changelog": [
         "1. 空白表格預先渲染 (v4.5)：新增 RTU 分頁在首次成功讀取前，自動建立包含點位名稱與格式的佔位表格，支援雙擊編輯點位名稱",
         "2. 智慧動態游標置中 (v4.5)：多螢幕滑鼠游標精準追蹤定位演算法，全域導入至所有設定視窗與對話框",
